@@ -1,0 +1,84 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Eczar', serif;
+    font-size: 12px;
+    color: whitesmoke;
+    margin: 45px 15% auto 15%;
+    border: 0;
+    line-height: 1.5;
+}
+
+.vizitka {
+    padding: 6% 28% 13% 28%;
+    background-image: url(IMG/foto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.kontakt {
+    padding-left: 45%;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 45px;
+    margin-bottom: 0;
+    color: brown ;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none ;
+    color: navy;
+    text-shadow: 0px 0px 20px whitesmoke;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+#nadpis a {
+    color: brown;
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 0px 0px 40px whitesmoke;
+}
+
+#nadpis a:hover {
+    color: whitesmoke;
+}
+
+/*na co to je?*/
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
