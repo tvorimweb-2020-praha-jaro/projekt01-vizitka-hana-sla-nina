@@ -1,0 +1,58 @@
+<!--Zadání druhého nepovinného úkolu
+Ještě jednou budeme pracovat s vaší vizitkou z minulého týdne.
+Commitujte a pushujte do stejného repozitáře, až budete s výsledkem spokojeni, napište do commit message "Hotovo".
+
+Rozdělte prezentaci na dvě stránky – tj. vytvořte nový HTML soubor, například jedna stránka může být "O mně" a druhá "Kontakt".
+Udělejte horizontální menu mezi stránkami (jak jsme si ukazovali v lekci).
+Vylepšete vizuálně prezentaci (např. podle Webdesign in 4 Minutes):
+- přidejte rámečky,
+- omezte maximální šířku stránky aby text nebyl od krajů do krajů.
+-->
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,900,900i&display=swap&subset=latin-ext" rel="stylesheet"> 
+    <title>o mně</title>
+</head>
+    
+<body>
+    <!--hlavička stránky s odkazem-->
+    <a href="puvodni.html">
+        <header>
+            <h1>hana slaninová</h1>
+        </header>
+    </a>
+        
+    <!--menu-->
+    <ul class="menu">
+        <li id="puvodni"><a href="puvodni.html">původní stránka</a></li>
+        <li id="omne"><a href="omne.html">o mně</a></li>
+        <li id="kontakt"><a href="kontakt.html">kontakt</a></li>
+    </ul>
+    
+    <section class="text">
+        <p>
+            Coby grafička pracuji na poloviční úvazek pro <a href="https://www.facebook.com/CzechGames/?epa=SEARCH_BOX">Czech Games Edition</a>. V galerii <a href="https://plato-ostrava.cz/">PLATO</a> vedu edukační programy pro děti a mládež. V rámci <a href="https://www.facebook.com/LoesjeCzechia/">Loesje Czechia</a> pořádám workhopy tvůrčího psaní, kde si společně hrajeme se slovy a zvelebujeme veřejný i virtuální prostor. Spolu s <a href="https://www.facebook.com/artrafika/">Artrafikou</a> organizujeme workshopy na výrobu tetovaček, koncerty, autorská čtení, výstavy a jiné kratochvíle. 
+        </p>
+        <p>
+             Jako výtvarnici mě baví vytvářet objekty a vztahy v prostoru. Reaguji na prostředí, pracuji s dřevem i papírem, vyprávím příběhy, ráda tvořím site-specific instalace.    
+            Těší mě dívat se, jak rostou rostliny. Když potřebuji být sama a odpočinout si, sbalím si batoh a putuji krajinou. 
+        </p>
+            
+    </section>
+
+
+
+
+    <!--patička stránky-->
+    <footer class="paticka" id="paticka">
+        <p>© 2020 Hana Slaninová</p>
+    </footer>   
+    
+</body>
+
+</html>
